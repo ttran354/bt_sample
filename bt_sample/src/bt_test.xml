@@ -1,0 +1,11 @@
+ 
+ <root main_tree_to_execute = "MainTree" >
+     <BehaviorTree ID="MainTree">
+        <Sequence name="root_sequence">
+            <MoveBase goal="-1;2;0" />
+            <MoveBase goal="-3;1;0" />
+            
+        </Sequence>
+     </BehaviorTree>
+ </root>
+
